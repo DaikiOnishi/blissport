@@ -76,12 +76,24 @@
 		margin: -80px 10% 5%;
 		display: inline-block;
 	}
-	#company .block01,
-	#company .block02{
+	#company .block01{
 		width: 96%;
 		padding: 5% 2%;
 		float: left;
 		height: auto;
+	}
+	#company .block02{
+		height: 0;
+		overflow: hidden;
+		padding-bottom: 56.25%;
+		position: relative;
+	}
+	#company .block02 iframe{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
 	}
 	#company .block03 .area{
 		width: 90%;
