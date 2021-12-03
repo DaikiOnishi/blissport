@@ -75,9 +75,10 @@
 		width: 80%;
 		margin: -80px 10% 5%;
 		display: inline-block;
+		height: 100%;
 	}
 	#company .block01{
-		width: 96%;
+		width: 100%;
 		padding: 5% 2%;
 		float: left;
 		height: auto;
