@@ -1,0 +1,173 @@
+body {
+	padding: 20px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 789px)
+body {
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+	padding: 20px 0;
+	color: #232323;
+	font-size: 122%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+input[type=text] {
+	padding: 5px 10px;
+	font-size: 86%;
+	border: none;
+	border-radius: 3px;
+	background: #f8f9fa;
+}
+
+input[name=btn_confirm],
+input[name=btn_submit],
+input[name=btn_back] {
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 100%;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	background: #003171;
+}
+
+input[name=btn_back] {
+	margin-right: 20px;
+	background: #999;
+}
+
+.element_wrap {
+	margin-bottom: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.element_wrap p {
+	display: inline-block;
+	margin:  0;
+	text-align: left;
+}
+
+label[for=gender_male],
+label[for=gender_female],
+label[for=day],
+label[for=agreement] {
+	margin-right: 10px;
+	width: auto;
+	font-weight: normal;
+}
+
+textarea[name=shop_info],
+textarea[name=shop_root],
+textarea[name=holiday],
+textarea[name=contact] {
+	padding: 5px 10px;
+	width: 60%;
+	height: 100px;
+	font-size: 86%;
+	border: none;
+	border-radius: 3px;
+	background: #f8f9fa;
+}
+
+.error_list {
+	padding: 10px 30px;
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+	border: 1px solid #ff2e5a;
+	border-radius: 5px;
+}
+
+.font_must {
+    font-size: 10px;    /* ï∂éöÉTÉCÉYéwíË */
+    color: #de7b85;     /* ï∂éöêFéwíË */
+}
+
+input::placeholder {
+  color: #BFBFBF;
+}
+
+.ownerinfo {
+    padding: 0.5em 1em;
+    margin: 0em 10px;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #16507a;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.bankinfo {
+    padding: 0.5em 1em;
+    margin: 2em 10px;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #16507a;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.saloninfo {
+    padding: 0.5em 1em;
+    margin: 2em 10px;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #16507a;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.garuinfo {
+    padding: 0.5em 1em;
+    margin: 2em 10px;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #16507a;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.formbox {
+    color: #5d627b;
+    background: white;
+    padding-top: 30px;
+}
+
+.btn_last {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background: #003171;
+}
+
+.bnkauto {
+position: absolute;
+    display: block;
+    z-index: 999999;
+    font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", ÉÅÉCÉäÉI, Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 5px 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left;
+    left: 47px;
+    top: 1620.5px;
+}
+
+</style>

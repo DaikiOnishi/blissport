@@ -1,0 +1,8 @@
+AuthUserFile "/home/blissport/blissport.xsrv.jp/htpasswd/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
