@@ -1,0 +1,59 @@
+/* CSS Document */
+$colors: #003171, #003171, #003171, #003171, #003171;
+
+.text--line {
+	font-size: .5em;
+}
+
+svg {
+	position: absolute;
+	width: 70%;
+	height: 100%;
+	top: 0;
+	margin: 0 15%;
+	font: 5em/1 Arial;
+}
+
+$max: 5;
+$stroke-step: 7%; 
+.text-copy {
+	fill: #003171;
+	stroke: #fff;
+	stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+	stroke-width: 2px;
+	animation: stroke-offset 5s 1;
+	font-family: 'Comfortaa', cursive;
+	
+	@for $item from 1 through $max {
+		$stroke-color: nth($colors, $item);
+		
+		&:nth-child(#{$item}) {
+			/*fill: none;*/
+			/*fill-opacity: 1*/
+			stroke: $stroke-color;
+			stroke-dashoffset: $stroke-step * $item;
+		}
+	}
+}
+
+@keyframes stroke-offset {
+	0% {
+		fill: transparent;
+		stroke-dashoffset: $stroke-step * $max;  
+	}
+	30% {
+		fill: transparent;
+	}
+	60% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-dashoffset:0;
+		fill:#003171;
+	}
+}
+@media only screen and (max-width: 768px) {
+	svg {
+		font: 10em/1 Arial;
+	}
+}

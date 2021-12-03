@@ -1,0 +1,232 @@
+/* CSS Document */
+#service{
+	background: #f6f7f7;
+	float: right;
+	width: 100%;
+	margin-right: -250px;
+	padding-right: 250px;
+	box-sizing: border-box;
+}
+#service .page-content{
+	width: 90%;
+	margin: 5%;
+	background: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	-webkit-tap-highlight-color: transparent;
+	transition: .3s ease-out;
+	display: inline-block;
+	padding: 0;
+	height: calc(90%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#service .wrapper{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 80rem;
+}
+#service .cols{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+#service .col{
+	width: calc(27%);
+	margin: 1.5rem;
+	cursor: pointer;
+}
+#service .container{
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+#service .icon{
+	width: 60%;
+	margin-top: -2rem;
+}
+#service .front,
+#service .back{
+	background-size: cover;
+	background-position: center;
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	text-align: center;
+	min-height: 240px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.5rem;
+	height: calc(38vh);
+}
+#service .back{
+	background: #fff;
+	/*background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+	background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+	background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);*/
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+#service .front:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	content: '';
+	display: block;
+	opacity: .5;
+	background-color: #003171;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 10px;
+}
+#service .container:hover .front,
+#service .container:hover .back{
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+#service .back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#service .inner{
+	-webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+	transform: translateY(-50%) translateZ(60px) scale(0.94);
+	top: 50%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 1rem 2rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 1px solid transparent;
+	-webkit-perspective: inherit;
+	perspective: inherit;
+	z-index: 2;
+}
+#service .container .back{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#service .container .back{
+	color: #003171;
+    font-size: 14px;
+    line-height: 20px;
+}
+#service .container .back p{
+	text-align: initial;
+}
+#service .container .front{
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#service .container:hover .back{
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#service .container:hover .front{
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+#service .front .inner p {
+	font-size: 14px;
+	margin-bottom: 1.5rem;
+	position: relative;
+	margin-top: -1rem;
+}
+#service .front .inner p:after {
+	content: '';
+	width: 4rem;
+	height: 2px;
+	position: absolute;
+	background: #FF9900;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 30px;
+}
+#service .back .inner p:after {
+	content: '';
+	width: 4rem;
+	height: 2px;
+	position: absolute;
+	background: #FF9900;
+	display: block;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#service .front .inner span{
+	color: rgba(255,255,255,0.7);
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 15px;
+}
+@media only screen and (max-width: 768px) {
+	#service{
+		padding-bottom: 15%;
+		float: none;
+		margin-right: 0;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
+	#service .page-content{
+		width: 80%;
+		margin: -80px 10% 5%;
+		display: inline-block;
+		padding-top: 5%;
+	}
+	#service .back .inner p:after {
+		top: 85px;
+	}
+	#service .front, #service .back{
+		min-height: 200px;
+		height: calc(30vh);
+	}
+}
+@media screen and (max-width: 64rem){
+	#service .col{
+		width: calc(35% - 3rem);
+		margin: 1rem;
+	}
+}
+@media screen and (max-width: 48rem){
+	#service .col{
+		width: calc(50% - 3rem);
+	}
+}
+@media screen and (max-width: 32rem){
+	#service .col{
+		width: 90%;
+		margin: 0 0 2rem 0;
+	}
+}

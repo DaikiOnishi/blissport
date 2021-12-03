@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.layer-bg {
+	background: url(../img/top/top.jpg) no-repeat center center/cover;
+	min-height: 600px;
+	position: inherit;
+	width: 100%;
+	height: calc(100vh);
+	/*background-color: rgba(0, 49, 113,0.5);*/
+	background-blend-mode: exclusion;
+}
+.topvector{
+	position: absolute;
+	top: 52%;
+	left: 35%;
+	width: 15%;
+}
+@media screen and (max-width: 768px){
+	.topvector{
+		top: 52%;
+		left: 22%;
+		width: 25%;
+	}
+}

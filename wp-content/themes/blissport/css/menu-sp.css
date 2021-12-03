@@ -1,0 +1,53 @@
+/* CSS Document */
+nav {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	nav {
+		position: fixed;
+		padding-bottom: 12px;
+		background: #003171;
+		padding: 1rem 0 1.5rem;
+		display: block;
+		bottom: 0;
+		width: 100%;
+	}
+	nav .line {
+		height: 2px;
+		position: absolute;
+		bottom: 0;
+		margin: 5px 7px 10px;
+		background: #FF9900;
+	}
+	nav ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: block;
+	}
+	nav ul li {
+		margin: 0 2% 0;
+		opacity: 0.4;
+		transition: all 0.4s ease;
+		width: 21%;
+	}
+	nav ul li:hover {
+		opacity: 0.7;
+	}
+	nav ul li.active {
+		opacity: 1;
+	}
+	nav ul li:last-child {
+		/*margin-right: 0;*/
+	}
+	nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		text-transform: uppercase;
+		display: block;
+		font-weight: 400;
+		letter-spacing: 0.2em;
+		font-size: 8px;
+		text-align: center;
+	}
+}

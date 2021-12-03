@@ -1,0 +1,237 @@
+/* CSS Document */
+#contact{
+	background: #f6f7f7;
+	float: right;
+	width: 100%;
+	margin-right: -250px;
+	padding-right: 250px;
+	box-sizing: border-box;
+}
+#contact table{
+	width: 100%;
+}
+#contact .page-content{
+	width: 90%;
+	margin: 5% auto;
+	background: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	-webkit-tap-highlight-color: transparent;
+	transition: .3s ease-out;
+}
+#contact .page-content .box01{
+	width: 90%;
+	margin: 1rem auto;
+	font-size: 1rem;
+}
+#contact .page-content .box02{
+	width: 90%;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+#contact .box02 .contact-title{
+	font-size: 1rem;
+	display: flex;
+	margin-top: 30px;
+}
+#contact .box02 .contact-title span{
+	margin-right: 5px;
+}
+#contact .box02 .contact-title .attention{
+	color: #003171;
+}
+
+#contact input.wpcf7-form-control.wpcf7-text,
+#contact input.wpcf7-form-control.wpcf7-quiz,
+#contact input.wpcf7-form-control-wrap.number-1,
+#contact input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number.number1,
+#contact input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date.datesp,
+#contact textarea.wpcf7-form-control.wpcf7-textarea {
+	width: 98%;
+	padding: 8px 0 8px 2%;
+	margin-top: 5px;
+	border: 1px solid #d0d5d8;
+	border-radius: 3px;
+}
+#contact span.wpcf7-list-item{
+	display: block;
+	margin: .5rem 1em;
+}
+#contact th{
+	width: 40%;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: initial;
+	line-height: 1.8;
+}
+#contact th span{
+	width:100%;
+	display: block;
+}
+#contact th .haveto{
+	background: #ff9900;
+	padding: 1px 3px;
+	/*border-radius: 3px;*/
+	font-size: 11px;
+	color: #fff;
+	margin-right: 10px;
+	width: auto;
+	text-align: center;
+	float: left;
+}
+#contact th .any{
+	background: #f6f7f7;
+	padding: 1px 3px;
+	/*border-radius: 3px;*/
+	font-size: 11px;
+	color: #003171;
+	margin-right: 10px;
+	width: auto;
+	text-align: center;
+	float: left;
+}
+#contact td{
+	display: block;
+	margin-bottom: 1.5rem;
+	font-size: .75rem;
+}
+#contact .birthday{
+	display: flex;
+	float: none;
+}
+#contact .birthday select{
+	margin: 0 10px 0 0;
+}
+#contact .wpcf7-form-control.wpcf7-acceptance{
+	display: block;
+	float: left;
+}
+#contact .alert{
+	float: left;
+	position: inherit;
+	font-size: .5rem;
+	padding-top: 12px;
+}
+#contact div.wpcf7 .wpcf7-submit:disabled{
+	background-color: #f6f7f7;/*背景色*/
+	color: #FFF;/*文字色*/
+	font-size: 12px;/*文字サイズ*/
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 0.05em;/*字間*/
+	padding: 0.75rem 1em;/*ボタン内の余白*/
+	border-radius: 35px;/*角の丸み*/
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);/*影*/
+	-webkit-tap-highlight-color: transparent;
+	transition: .3s ease-out;/*変化を緩やかに*/
+	border-color: #f6f7f7;
+	margin: 1rem auto 0;
+	width: 50%;
+	display: block;
+}
+#contact div.wpcf7 .wpcf7-submit {
+	background-color: #003171;/*背景色*/
+	color: #FFF;/*文字色*/
+	font-size: 12px;/*文字サイズ*/
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 0.05em;/*字間*/
+	padding: 0.75rem 1em;/*ボタン内の余白*/
+	border-radius: 35px;/*角の丸み*/
+	cursor: pointer;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);/*影*/
+	-webkit-tap-highlight-color: transparent;
+	transition: .3s ease-out;/*変化を緩やかに*/
+	border-color: #003171;
+	margin: 1rem auto 0;
+	width: 50%;
+	display: block;
+}
+#contact span.wpcf7-not-valid-tip {
+	color: #ff9900;
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+}
+#contact div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+	display: none !important;
+}
+#contact div.wpcf7-validation-errors,div.wpcf7-acceptance-missing{
+	border: 2px solid #f7e700;
+	display: none !important;
+}
+/*Thanks page*/
+#contact h4{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 2rem;
+	margin-bottom: 10px;
+	font-weight: bold;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Comfortaa', cursive;
+	color: #003171;
+}
+#contact h3{
+	text-align: center;
+	margin: 1rem auto 3rem;
+	font-size: 12px;
+}
+#contact .thanks{
+	width: 90%;
+	margin: 1rem auto 2rem;
+	text-align: initial;
+	line-height: 1.5;
+	font-size: 12px;
+}
+#contact .wp-block-image img {
+	max-width: 20%;
+	margin: 3rem auto 1rem;
+	display: block;
+}
+#contact .toplink{
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 1rem;
+}
+#contact .toplink a{
+	text-decoration: none;
+	color: #000;
+}
+@media only screen and (max-width: 768px) {
+	#contact{
+		padding-bottom: 15%;
+		float: none;
+		margin-right: 0;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
+	#contact .page-content{
+		width: 80%;
+		margin: -80px 10% 5%;
+		display: inline-block;
+	}
+	#contact div.wpcf7 .wpcf7-submit:disabled,
+	#contact div.wpcf7 .wpcf7-submit{
+		width: 70%;
+	}
+	#contact th {
+		width: 100%;
+		font-size: 12px;
+		font-weight: 400;
+		text-align: initial;
+		line-height: 1.8;
+		float: left;
+	}
+	#contact .alert {
+		float: none;
+		position: inherit;
+		font-size: 10px;
+		padding-top: 0px;
+	}
+	#contact .birthday {
+		display: flex;
+		float: left;
+	}
+}

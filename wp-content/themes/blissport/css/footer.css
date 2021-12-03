@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#footer{
+	width: 100%;
+	bottom: 0;
+}
+#footer .footer-inner {
+	color: #003171;
+	padding: 1rem 0;
+	font-size: .75rem;
+	position: fixed;
+	width: 250px;
+	float: left;
+	bottom: 0;
+	text-align: center;
+}
+@media only screen and (max-width: 768px) {
+	#footer{
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+	}
+	#footer .footer-inner {
+		display: none;
+	}
+}

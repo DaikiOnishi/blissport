@@ -1,0 +1,59 @@
+/* CSS Document */
+.text--line {
+  font-size: .5em; }
+
+svg {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  margin: 0 15%;
+  font: 5em/1 Arial; }
+
+.text-copy {
+  fill: #003171;
+  stroke: #fff;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 2px;
+  animation: stroke-offset 5s 1;
+  font-family: 'Comfortaa', cursive; }
+  .text-copy:nth-child(1) {
+    /*fill: none;*/
+    /*fill-opacity: 1*/
+    stroke: #003171;
+    stroke-dashoffset: 7%; }
+  .text-copy:nth-child(2) {
+    /*fill: none;*/
+    /*fill-opacity: 1*/
+    stroke: #003171;
+    stroke-dashoffset: 14%; }
+  .text-copy:nth-child(3) {
+    /*fill: none;*/
+    /*fill-opacity: 1*/
+    stroke: #003171;
+    stroke-dashoffset: 21%; }
+  .text-copy:nth-child(4) {
+    /*fill: none;*/
+    /*fill-opacity: 1*/
+    stroke: #003171;
+    stroke-dashoffset: 28%; }
+  .text-copy:nth-child(5) {
+    /*fill: none;*/
+    /*fill-opacity: 1*/
+    stroke: #003171;
+    stroke-dashoffset: 35%; }
+
+@keyframes stroke-offset {
+  0% {
+    fill: transparent;
+    stroke-dashoffset: 35%; }
+  30% {
+    fill: transparent; }
+  60% {
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #003171; } }
+@media only screen and (max-width: 768px) {
+  svg {
+    font: 10em/1 Arial; } }
